@@ -29,8 +29,8 @@ class Landing extends Component {
                     <div className="enter-btn">
                         {/* </div></div><Button className="btn-background" raised accent ripple onClick={() => window.location.href = "./aboutme"}>Enter!</Button> */}
                         <Link to="/aboutme">
-                            <Button className="btn-background" raised accent ripple renderAs="button">
-                                <span>Enter!</span>
+                            <Button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style={{heght: '400px', width: '115px'}}>
+                                Enter!
                             </Button>
                         </Link>
                     </div>

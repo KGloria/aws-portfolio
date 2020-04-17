@@ -165,6 +165,7 @@
 .aboutme-body {
   width: 80%;
   text-align: left;
+  padding-top: 25;
   padding-left: 100px;
   font-family: 'Questrial', sans-serif;
 }

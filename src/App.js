@@ -8,7 +8,9 @@ function App() {
   return (
   <div className="nav">
       <Layout>
-          <Header className="header-color" title={<span style={{fontFamily: 'Amatic SC', fontSize: '36px'}}>Kyle S. Gloria</span>} scroll style={{color: 'black', fontSize: '36px'}}>
+          <Header className="header-color" title={<span style={{fontFamily: 'Amatic SC', fontSize: '36px'}}>
+          <Link to="/" style={{color: 'black'}}>Kyle S. Gloria</Link>
+          </span>} scroll style={{color: 'black', fontSize: '36px'}}>
               <Navigation className="nav-bar">
                   <Link to="/resume" font-size='36px' style={{color: 'black'}}>Resume</Link>
                   <Link to="/projects" style={{color: 'black'}}>Projects</Link>

@@ -5,8 +5,8 @@ class About extends Component {
     render() {
         return(
             <div className="aboutme-div">
-            <Card className="aboutme-card"shadow={2} style={{width: '1012px', margin: 'auto'}}>
-                <CardTitle style={{color: '#FFF', height: '300px', background: 'url(./img/sd_header.jpg) center / cover'}}></CardTitle>
+            <Card className="aboutme-card"shadow={0} style={{width: '1000px', margin: 'auto'}}>
+                <CardTitle style={{color: '#FFF', height: '300px', background: 'url(https://storage.needpix.com/rsynced_images/san-diego-2084674_1280.jpg) center / cover'}}></CardTitle>
                 <CardText style={{margin: 'auto', textAlign: 'left', display:'box'}}>
                     Hello! My name is Kyle and I am a recent graduate from San Diego State University with a B.S. in Computer Science.
                     <br></br>
