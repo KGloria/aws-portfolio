@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell, Button } from 'react-mdl';
+import { Link } from 'react-router-dom';
 import Typist from 'react-typist';
 
 class Landing extends Component {
@@ -26,7 +27,12 @@ class Landing extends Component {
                     </Grid>
                     <p className="landing-grid-blank"></p>
                     <div className="enter-btn">
-                        <Button className="btn-background" raised accent ripple onClick={() => window.location.href = "./aboutme"}>Enter!</Button>
+                        {/* </div></div><Button className="btn-background" raised accent ripple onClick={() => window.location.href = "./aboutme"}>Enter!</Button> */}
+                        <Link to="/aboutme">
+                            <Button className="btn-background" raised accent ripple renderAs="button">
+                                <span>Enter!</span>
+                            </Button>
+                        </Link>
                     </div>
                 </div>
             </div>
