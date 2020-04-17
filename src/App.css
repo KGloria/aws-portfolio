@@ -1,0 +1,178 @@
+.header-color {
+  background: #C9D6FF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, white, white);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, white, white); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  color: black;
+  font-family: 'Questrial', sans-serif;
+}
+
+.header-color title {
+  color: rgb(49, 25, 25);
+  font-size: 50px;
+  font-family: 'Amatic SC', cursive;
+}
+
+.drawer-nav {
+  color: black;
+  font-family: 'Questrial', sans-serif;
+}
+
+.drawer-nav Drawer {
+  color: black;
+}
+
+.outter-land {
+  width: 1275px;
+  height: 300px;
+  background-size: 100%;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50% , 10%);
+}
+
+.outter-res {
+  width: 1275px;
+  height: 300px;
+  background-size: 100%;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50% , 0%);  
+}
+
+.landing {
+  text-align: center;
+}
+
+.landing-grid-blank {
+  padding-bottom: 5em;
+  padding: 11em;
+}
+
+.landing-grid {
+  background: #C9D6FF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, white, white);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, white, white); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  width: '80%';
+  margin: 'auto';
+  position: absolute;
+}
+
+.enter-btn {
+  position: center;
+  text-align:center;
+  color: black;
+}
+
+.banner-text {
+  width: 100%;
+  height: 50%;
+  margin: auto;
+  border-radius: 20px;
+  top: 50px;
+  color: black;
+  font-family: 'Questrial', sans-serif;
+  
+}
+
+.banner-text hr {
+  border-top: 5px dotted black;
+  width: 79%;
+  margin: auto;
+}
+
+.banner-text p1 {
+  color: rgb(49, 25, 25);
+  font-size: 50px;
+  padding: 2em;
+  padding-bottom: 5em;
+  margin: auto;
+}
+
+.banner-text-blank {
+  padding-bottom: .1rem;
+  padding-top: .1rem;
+}
+
+.banner-text-blank2 {
+  padding-bottom: .1rem;
+  padding-top: .1rem;
+}
+
+.banner-text-blank3 {
+  padding-bottom: 10rem;
+}
+
+.banner-text p2 {
+  color: rgb(49, 25, 25);
+  font-size: 40px;
+  padding: 5em;
+  padding-top: 7em;
+}
+
+.projects-header {
+  text-align: center;
+  color: black;
+  font-family: 'Questrial', sans-serif;
+  text-decoration: underline overline dotted black;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+}
+
+.projects-body {
+  text-align: center;
+}
+
+.projects-grid1 {
+  text-align: center;
+}
+
+.projects-grid2 {
+  text-align: center;
+}
+
+.projects-grid3 {
+  text-align: center;
+}
+
+.resume-header {
+  text-align: center;
+  color: black;
+  font-family: 'Questrial', sans-serif;
+  text-decoration: underline overline dotted black;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+}
+
+.resume-div {
+  padding-bottom: 5em;
+}
+
+.aboutme-div {
+  text-align: center;
+}
+
+.aboutme-header {
+  text-align: center;
+  color: black;
+  font-family: 'Questrial', sans-serif;
+  text-decoration: underline overline dotted black;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+}
+
+.aboutme-body {
+  width: 80%;
+  text-align: left;
+  padding-left: 100px;
+  font-family: 'Questrial', sans-serif;
+}
+
+.resume {
+  padding-left: 150px;
+}
+
+.aboutme-card {
+  padding-top: 10px;
+}
