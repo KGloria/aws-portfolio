@@ -26,7 +26,7 @@ class Landing extends Component {
                     </Grid>
                     <p className="landing-grid-blank"></p>
                     <div className="enter-btn">
-                        <Button className="btn-background" raised accent ripple onClick={() => window.location.href = "/aboutme"}>Enter!</Button>
+                        <Button className="btn-background" raised accent ripple onClick={() => window.location.href = "./aboutme"}>Enter!</Button>
                     </div>
                 </div>
             </div>
