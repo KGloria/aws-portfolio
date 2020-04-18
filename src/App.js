@@ -17,7 +17,9 @@ function App() {
                   <Link to="/aboutme" style={{color: 'black'}}>About Me</Link>
               </Navigation>
           </Header>
-          <Drawer className="drawer-nav" color="black" title={<span style={{fontFamily: 'Amatic SC', fontSize: '36px'}}>Kyle S. Gloria</span>} style={{color: 'black'}}>
+          <Drawer className="drawer-nav" color="black" title={<span style={{fontFamily: 'Amatic SC', fontSize: '36px'}}>
+          <Link to="/" style={{color: 'black'}}>Kyle S. Gloria</Link>
+          </span>} style={{color: 'black'}}>
               <Navigation>
                   <Link to="/resume">Resume</Link>
                   <Link to="/projects">Projects</Link>

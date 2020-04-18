@@ -9,7 +9,7 @@ class Resume extends Component {
                 <div className="resume-div">
                     <h1 className="resume-header">Resume</h1>
                     <Link className="resume" to="/files/KyleGloria_Resume.pdf" target="_blank" download>Save as PDF</Link>
-                    <Card shadow={1} style={{width: '1024px', height: '1280px', background: 'url(./img/KyleGloria_Resume.jpg) center / cover', margin: 'auto'}}>
+                    <Card className="resume-card" shadow={1} style={{width: '1024px', height: '1280px', background: 'url(./img/KyleGloria_Resume.jpg) center / cover', margin: 'auto'}}>
                         <CardTitle expand />
                         <CardActions style={{height: '52px', padding: '16px', background: 'rgba(0,0,0,0.2)'}}>
                             <span style={{color: '#fff', fontSize: '14px', fontWeight: '500'}}>
