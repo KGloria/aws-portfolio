@@ -10,7 +10,7 @@ class Landing extends Component {
                 <div className="landing" style = {{width: '100%', margin: 'auto'}}>
                     <Grid className="landing-grid">
                         <Cell className="cell-2" col={2}>
-                        <img src={"https://cdn.discordapp.com/attachments/134100737625030656/672991571095978014/download20200105182805.png"} alt="Logo" width="400" height="345"/>
+                        <img src={"https://cdn.discordapp.com/attachments/134100737625030656/672991571095978014/download20200105182805.png"} alt="Logo" margin="0 auto" display="block" max-width="400" width="100%" height="345"/>
                         </Cell>
                         <Cell className="cell-1" col={10}>
                             <p className="banner-text-blank3"></p>
