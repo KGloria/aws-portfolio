@@ -1,185 +1,104 @@
-.header-color {
-  background: #C9D6FF;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, white, white);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, white, white); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
-  color: black;
-  font-family: 'Questrial', sans-serif;
+* {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
-.header-color title {
-  color: rgb(49, 25, 25);
-  font-size: 50px;
-  font-family: 'Amatic SC', cursive;
-}
-
-.drawer-nav {
-  color: black;
-  font-family: 'Questrial', sans-serif;
-}
-
-.drawer-nav Drawer {
-  color: black;
-}
-
-.outter-land {
-  width: 1275px;
-  height: 300px;
-  background-size: 100%;
-  border-radius: 50%;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50% , 10%);
-}
-
-.outter-res {
-  max-width: 100%;
-  width: 1275px;
-  height: 300px;
-  background-size: 100%;
-  border-radius: 50%;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50% , 0%);  
-}
-
-.landing {
+.App {
   text-align: center;
 }
 
-.landing-grid-blank {
-  padding-bottom: 5em;
-  padding: 11em;
+.App-header {
+  background-color: #ebc8b2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-.landing-grid {
-  background: #C9D6FF;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, white, white);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, white, white); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
-  width: '80%';
-  margin: 'auto';
-  position: absolute;
+.App-link {
+  color: #fff;
 }
 
-.enter-btn {
-  position: center;
-  text-align:center;
-  color: black;
+.LandingPage-Desc {
+  font-size: calc(10px + 2vmin);
 }
 
-.banner-text {
-  width: 100%;
-  height: 50%;
-  margin: auto;
-  border-radius: 20px;
-  top: 50px;
-  color: black;
-  font-family: 'Questrial', sans-serif;
-  
+.Icon-Overlay {
+  position: fixed;
+  right: 0%;
+  top: 0%;
+  z-Index: 1000;
+  height: 100vh;
+  background: #ffffff;
+  width: clamp(1.875em, 3vw, 1.25px);
 }
 
-.banner-text hr {
-  border-top: 5px dotted black;
-  width: 79%;
-  margin: auto;
+.Icon-Image {
+  left: 20%;
+  width: clamp(1.25em, 1vw, .75em);
+  position: relative;
+  transition: all .5s ease;
 }
 
-.banner-text p1 {
-  color: rgb(49, 25, 25);
-  font-size: 50px;
-  padding: 2em;
-  padding-bottom: 5em;
-  margin: auto;
+.Icon-Image:hover {
+  width: clamp(1.45em, 2vw, .15em);
 }
 
-.banner-text-blank {
-  padding-bottom: .1rem;
-  padding-top: .1rem;
+.logo:hover {
+  transform: translateY(-2.5px);
+  transition: all .25s ease;
 }
 
-.banner-text-blank2 {
-  padding-bottom: .1rem;
-  padding-top: .1rem;
+
+@media only screen and (max-width: 43.75em) {
+
+  .LandingPage-NameBox {
+    border: 10px solid white;
+    min-width: 40vw;
+    box-Shadow: 0 5px #666;
+    max-height: 30vw;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .LandingPage-Name{
+    font-size: calc(35px + 3vmin);
+    margin-bottom: -5px;
+    margin-top: -16px;
+  }
+
+
+  .LandingPage-Name:hover {
+    font-size: calc(40px + 3vmin);
+    transition: all 1s ease;
+  }
+
+  .LandingPage-Desc {
+    font-size: calc(8px + 2vmin);
+  }
+
+  .Icon-Overlay {
+    position: fixed;
+    right: 0%;
+    top: 0%;
+    z-Index: 1000;
+    height: 100vh;
+    background: #ffffff;
+    width: 4vw;
+    min-width: 4vw;
+  }
+
+  .Icon-Image {
+    margin: auto;
+    width: clamp(1.25em, 1vw, .75em);
+    position: relative;
+  }
 }
 
-.banner-text-blank3 {
-  padding-bottom: 10rem;
-}
 
-.banner-text p2 {
-  color: rgb(49, 25, 25);
-  font-size: 40px;
-  padding: 5em;
-  padding-top: 7em;
-}
-
-.projects-header {
-  text-align: center;
-  color: black;
-  font-family: 'Questrial', sans-serif;
-  text-decoration: underline overline dotted black;
-  padding-top: 10px;
-  padding-bottom: 10px; 
-}
-
-.projects-body {
-  text-align: center;
-}
-
-.projects-grid1 {
-  text-align: center;
-}
-
-.projects-grid2 {
-  text-align: center;
-}
-
-.projects-grid3 {
-  text-align: center;
-}
-
-.resume-header {
-  text-align: center;
-  color: black;
-  font-family: 'Questrial', sans-serif;
-  text-decoration: underline overline dotted black;
-  padding-top: 10px;
-  padding-bottom: 10px; 
-}
-
-.resume-div {
-  padding-bottom: 5em;
-}
-
-.aboutme-div {
-  text-align: center;
-}
-
-.aboutme-header {
-  text-align: center;
-  color: black;
-  font-family: 'Questrial', sans-serif;
-  text-decoration: underline overline dotted black;
-  padding-top: 10px;
-  padding-bottom: 10px; 
-}
-
-.aboutme-body {
-  width: 80%;
-  text-align: left;
-  padding-top: 25;
-  padding-left: 100px;
-  font-family: 'Questrial', sans-serif;
-}
-
-.resume {
-  padding-left: 150px;
-}
-
-.aboutme-card {
-  padding-top: 10px;
-  max-width: 100%;
-}
-
-.resume-card {
-  max-width: 100%; 
-}
