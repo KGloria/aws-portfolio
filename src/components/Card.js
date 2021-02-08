@@ -33,15 +33,15 @@ const Card = ({ title, description, image, link}) => {
 
     return (
         <ProjCard onMouseOver={() => setHover(true)} onMouseLeave={() => setHover(false)}>
-            <a href={link} style={{height: "100%", width: "100%" }}>
-              <img alt="coloredBackground" src={image} style={hover? {opacity:"46%", height: "100%", width: "100%", objectFit: "fill"} : {height: "100%", width: "100%", objectFit: "fill"}}/>
+            <a href={link} style={{height: "100%", width: "100%", overflowY: 'hidden' }}>
+              <img alt="coloredBackground" src={image} style={hover? {opacity:"46%", height: "100%", width: "100%", objectFit: "fill", overflowY: 'hidden'} : {height: "100%", width: "100%", objectFit: "fill", overflowY: 'hidden'}}/>
             </a>
             {hover 
             ? 
             <a href={link} style={{color: "white"}}>
                 <Description>{description}</Description>
             </a>
-            : <h1 style={{ position:"absolute", width:"100%", top: "35%", left: "50%", transform: "translate(-50%, -50%)", overflowWrap: "break-word"}}>{title}</h1>
+            : <h1 style={{ position:"absolute", width:"100%", top: "35%", left: "50%", transform: "translate(-50%, -50%)", overflowWrap: "break-word", overflowY: 'hidden'}}>{title}</h1>
             }
         </ProjCard> 
     )
