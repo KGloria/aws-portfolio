@@ -16,6 +16,8 @@ display: inline-flex;
 top: 1%;
 z-Index: 1000;
 right: 40px;
+overflow-Y: hidden;
+cursor: pointer;
 
 &:hover {
   transform: translateY(-.4px);
@@ -40,7 +42,7 @@ const AppBar = ({ref1, ref2, ref3}) => {
 
     return (
       <div style={{position: 'fixed', width: '100vw', height: 'clamp(2em, 5vh, 2.5em)', display: 'flex', top: '1%', left: '1%'}}>
-        <h2 className='logo' style={{ alignSelf:'center', color: 'Black' }} onClick={() => executeScroll(ref1)}>Kyle Gloria</h2>
+        <h2 className='logo' style={{ alignSelf:'center', color: 'Black', cursor: 'pointer' }} onClick={() => executeScroll(ref1)}>Kyle Gloria</h2>
         <NavButton onClick={() => executeScroll(ref2)}>Projects</NavButton> 
         <NavButton style={{ marginRight: '25px', marginLeft: '0px' }}onClick={() => executeScroll(ref3)}>Skills</NavButton> 
         {

@@ -20,6 +20,7 @@ const Name = styled.p`
   margin: 0 auto;
   margin-Top: -16px; 
   margin-Bottom: -16px;
+  overflow-y: hidden; 
 
   &:hover {
     font-size: calc(75px + 3vmin);

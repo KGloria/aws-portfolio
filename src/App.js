@@ -47,7 +47,7 @@ const App = () => {
       },
       {title: 'Chatroom App',
       image: 'https://www.colorhexa.com/B2E9EB.png',
-      link: '',
+      link: 'https://github.com/KGloria/chatroom',
       description: 'Fullstack chatroom app developed in ReactJS framework',
       id: '2'
       },

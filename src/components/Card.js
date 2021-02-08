@@ -11,6 +11,7 @@ const Description = styled.p`
     transform: translate(-50%, -50%); 
     overflowWrap: break-word;
     padding: 10px;
+    overflow-Y: hidden;
 `
 
 const ProjCard = styled.div`
@@ -24,6 +25,7 @@ const ProjCard = styled.div`
     text-Align: center;
     position: relative;
     z-Index: 900;
+    cursor: pointer;
 `
 
 const Card = ({ title, description, image, link}) => {
