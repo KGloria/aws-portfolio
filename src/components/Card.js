@@ -34,7 +34,7 @@ const Card = ({ title, description, image, link}) => {
     return (
         <ProjCard onMouseOver={() => setHover(true)} onMouseLeave={() => setHover(false)}>
             <a href={link} style={{height: "100%", width: "100%" }}>
-              <img alt="coloredBackground" src={image} style={hover? {opacity:"45%", height: "100%", width: "100%", objectFit: "fill"} : {height: "100%", width: "100%", objectFit: "fill"}}/>
+              <img alt="coloredBackground" src={image} style={hover? {opacity:"46%", height: "100%", width: "100%", objectFit: "fill"} : {height: "100%", width: "100%", objectFit: "fill"}}/>
             </a>
             {hover 
             ? 
